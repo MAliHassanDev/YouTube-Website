@@ -107,7 +107,7 @@ a{
   padding-left: 16px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  box-shadow: inset 0px 1px 2px 0px  rgb(238, 238, 238);
+  box-shadow: inset 0px .5px  0px  rgb(238, 238, 238), inset 0px -.5px  0px  rgb(238, 238, 238);
   display: none;
   box-sizing: border-box;
   border-right: none;
@@ -130,7 +130,7 @@ a{
   flex-grow: 1;
   flex-shrink: 1;
   width: 0;
-  box-shadow: inset 0px 1px 2px 0px  rgb(238, 238, 238);
+  box-shadow: inset 0px .5px  0px  rgb(238, 238, 238), inset 0px -.5px  0px  rgb(238, 238, 238);
   margin-left:39px;
   box-sizing: border-box;
   max-width: 530px;;
@@ -156,7 +156,7 @@ a{
 
 .search-icon {
   border: 1px solid rgb(211, 211, 211);
-  padding: 7px 19px;
+  padding: 7.1px 19px;
   display: flex;
   align-items: center;
   border-top-right-radius: 20px;
