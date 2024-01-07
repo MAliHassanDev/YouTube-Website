@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YouTube</title>
+    <link rel="stylesheet" href="youtubeclone.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="NavBar ">
+        <div class="nav-section1">
+          <i class="menu-icon"> <img src="icons/hamburger-menu.svg" alt="hamburger-menu"></i>
+          <i class="youtube-logo"> <img src="icons/youtube-logo.svg" alt="youtube-logo"></i>
+        </div>
+        <div class="nav-section2">
+          <i class="small-searchicon"> <img src="icons/search.svg" alt="search-icon"></i>
+          <input type="text" placeholder="Search" class="search-bar">
+          <i class="search-icon"> <img src="icons/icons8-search (1).gif" alt="Search icon"></i>
+          <i class="voice-search-icon"> <img src="icons/voice-search-icon.svg" alt="voice-search-icon"></i>
+        </div>
+        <div class="nav-section3">
+          <i class="upload-icon"> <img src="icons/upload.svg" alt="upload-icon"></i>
+          <i class="notification-icon">
+             <img src="icons/notifications.svg" alt="notification-icon">
+             <span class="notification-number">9&#43</span>
+            </i>
+          <i class="profile-picture"> <img src="icons/abuobaida.jpeg" alt="abuobaida-image"></i>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- -----------Side Bar----------- -->
+
+    <div class="sidebar">
+      <div class="sidebar-sections">
+        <div class="sidebar-homesection">
+          <a href="https://www.youtube.com/"><img src="icons/home.svg" alt="Home-Icon"><p>Home</p></a>
+          <a href=""><img src="icons/icons8-explore-50.png" alt="Exploreicon"><p>Explore</p></a>
+          <a href="https://www.youtube.com/feed/subscriptions"><img src="icons/subscriptions.svg" alt="Subscription Icon"><p>Subscriptions</p></a>
+          <hr class="homesection-line first-line">
+        </div>
+        <div class="sidebar-you">
+          <a href="" id="you-section-heading"><p>You</p><img id="you-greaterthen-icon" src="icons/icons8-greater-than-96.png" alt=""></a>
+          <a href=""><img src="icons/icons8-user-48.png" alt="Library Icon"><p>Your Channel</p></a>
+          <a href=""><img src="icons/library.svg" alt="Library icon"><p>Library</p></a>
+          <a href="" class="youtube-music"><img src="icons/youtube-music.svg" alt="youtube-music Icon"><p>YouTube Music</p></a>
+          <a href=""><img src="icons/originals.svg" alt="Orignals Icon"><p>Orignals</p></a>
+          <a href=""><img class="download-icon" src="icons/icons8-download.gif" alt="downloaad Icon"><p>Downloads</p></a>
+          <a href="" class="show-more"><img class="down-arrow" src="icons/down-arrow.png" alt="Show more icon"><p>Show More</p></a>
+          <hr class="homesection-line ">
+        </div>
+        <div class="sidebar-subcriptions">
+          <p class="subscriprion-heading">Subscriptions</p>
+          <a href=""><img src="channels-profile/Bol.jpg" alt="BolNews profile-picture"><p>BOL News</p><img src="icons/Liveyt.png" alt="live-icon" class="live-icon"></a>
+          <a href=""><img src="channels-profile/Talktv.jpg" alt="Talktv profile-picture"><p>Talk TV</p><img src="icons/Liveyt.png" alt="live-icon" class="live-icon"></a>
+          <a href=""><img src="channels-profile/Skgaming.jpg" alt="Skgaming profile-picture"><p>SK Gaming</p><img src="icons/Liveyt.png" alt="live-icon" class="live-icon"></a>
+          <a href=""><img src="channels-profile/space-vedios.jpg" alt="space-vedios profile-picture"><p>Space Videos</p><img src="icons/Liveyt.png" alt="live-icon" class="live-icon"></a>
+          <a href=""><img src="channels-profile/ThatWasEpic.jpg" alt="ThatWasEpic profile-picture"><p>ThatWasEpic</p><span></span></a>
+          <a href=""><img src="channels-profile/Owens Jones.jpg" alt="Owens Jones profile-picture"><p>Owens Jones</p><span></span></a>
+          <a href=""><img src="channels-profile/Quran Translation.jpg" alt="Quran Translation profile-picture"><p>Quran Majid</p><span></span></a>
+          <a href=""><img class="down-arrow" src="icons/down-arrow.png" alt=""><p>Show 862 more</p></a>
+          <hr class="homesection-line">
+        </div>
+        <div class="sidebar-Explore">
+          <p>Explore</p>
+          <a href=""><img src="icons/trending.png" alt=""><p>Trending</p></a>
+          <a href=""><img src="icons/icons8-musical-48.png" alt=""><p>Music</p></a>
+          <a href=""><img src="icons/icons8-nintendo-switch-pro-controller-100.png" alt="Gaming Icon"><p>Gaming</p></a>
+          <a href=""><img src="icons/icons8-news-100.png" alt="News Icon"><p>News</p></a>
+          <a href=""><img src="icons/icons8-trophy-96.png" alt=""><p>Sports</p></a>
+          <hr class="homesection-line">
+        </div>
+        <div class="sidebar-more">
+          <p>More from Youtube</p>
+          <a href=""><img src="icons/icons8-youtube-100.png" alt=""><p>YouTube Premium</p></a>
+          <a href=""><img src="icons/icons8-youtube-studio-480.png" alt=""><p>YouTube Studio</p></a>
+          <a href=""><img src="icons/icons8-youtube-music-480.png" alt="">YouTube Music</a>
+          <a href=""><img src="icons/youtube-kids-icon.png" alt=""><p>YouTube Kids</p></a>
+          <hr class="homesection-line">
+          <a href=""><img src="icons/icons8-setting.gif" alt=""><p>Settings</p></a>
+          <a href=""><img src="icons/icons8-flag.gif" alt=""><p>Report History</p></a>
+          <a href=""><img src="icons/icons8-help.gif" alt=""><p>Help</p></a>
+          <a href=""><img src="icons/icons8-comments (1).gif" alt=""><p>Send Feedback</p></a>
+          <hr class="homesection-line">
+        </div>
+        <div class="sidebar-bottomtext">
+          <div class="text-section1">
+            <span>About us</span> <span>Press</span> <span>Copyright</span> <br>
+            <span>Contact us</span> <span>Creators</span> <br> <span>Advertise</span> <span>Developers</span>
+          </div>
+          <div class="text-section2">
+            <span>Terms</span><span>Privacy Policy</span><span>Safety</span> <br> <span>How YouTube Works</span> <br>
+            <span>Test new features</span>
+          </div>
+         <div class="text-section3">
+          <p>© 2024 Google LLC</p>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------Topic tabs--------------------- -->
+
+    <div class="topic-tabs-container">
+      <div class="topic-tabs">
+        <ul>
+          <li>All</li>
+          <li>HTML</li>
+          <li>Computer Programing</li>
+          <li>Debates</li>
+          <li>Art</li>
+          <li>Gaming</li>
+          <li>Computers</li>
+          <li>Algorithms</li>
+          <li>News</li>
+          <li>Live</li>
+          <li>Machine</li>
+          <li>Podcasts</li>
+          <li>Sales</li>
+          <li>Sheikh</li>
+          <li>Recently uploaded</li>
+          <li>Watched</li>
+          <li>New to You</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- -----------------Main-------------------- -->
+
+    <div class="main-container-section">
+      <div class="main-container">
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/9 Christian Family Grills Muslim On His Beliefs! Muhammed Ali -Thumbnail.jpg" class="thumbnail" alt="">
+              <span class="video-time">50:41</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/muslim.jpg"  alt="muslim-lantern">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Christian Family Grills Muslim On His Beliefs!...</p>
+                <p class="author-name video-info">The Muslim Lantern</p>
+                <p class="video-date video-info">120k views &#183 2 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/11 THE MOST PSYCHOTIC ZIONIST TIKTOKS -Thumbnail.jpg" class="thumbnail" alt="">
+              <span class="video-time">23:11</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/hassan.jpg"  alt="HasanAbi">
+              </div>
+              <div class="video-content">
+                <p class="video-title">THE MOST PSYCHOTIC ZIONIST TIKTOKS</p>
+                <p class="author-name video-info" >HasanAbi<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">133k views &#183 1 months ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Islam's 'Golden Age' -Thumbnail.jpg" class="thumbnail" alt="">
+              <span class="video-time">23:29</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Epic-history.jpg"  alt="Epic-history">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Islam's 'Golden Age' - Rise of the Abbasids</p>
+                <p class="author-name video-info" >Epic History TV<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">921K views &#183 7 months ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/The Secret1.jpg" class="thumbnail" alt="">
+              <span class="video-time">6:20</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/ThenX.jpeg"  alt="">
+              </div>
+              <div class="video-content">
+                <p class="video-title">The SECRET to Super Human STRENGTH </p>
+                <p class="author-name video-info" >ThenX</p>
+                <p class="video-date video-info">20M views &#183 3 years ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/random davah.jpg" class="thumbnail" alt="">
+              <span class="video-time">7:06</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Random davah.jpg"  alt="random-davah">
+              </div>
+              <div class="video-content">
+                <p class="video-title">SNEAKO: A Letter From Mecca</p>
+                <p class="author-name video-info" >Random Dawah</p>
+                <p class="video-date video-info">4.4k views &#183 6 hours ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Inside the.webp" class="thumbnail" alt="">
+              <span class="video-time">7:12</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Tech Vision.jpeg"  alt="Tech Vision">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Inside The World's Largest Passenger Plane...</p>
+                <p class="author-name video-info" >Tech Vision<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">3.7M views &#183 10 months ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Top 5 high paying tech skills for 2024 -Thumbnail.jpg" class="thumbnail" alt="">
+              <span class="video-time">6:47</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/sahil.jpg"  alt="sahil">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Top 5 high paying tech skills for 2024</p>
+                <p class="author-name video-info" >Sahi & Sarra</p>
+                <p class="video-date video-info">13k views &#183 13 hours ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Allah.jpg" class="thumbnail" alt="">
+              <span class="video-time">42:59</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/yaqeen.jpg"  alt="yaqeen">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Where is Allah When The Ummah Hurts? | Dr.Om...</p>
+                <p class="author-name video-info" >Yaqeen Institute<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">109k views &#183 4 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=YwxylUPUeZM">
+              <img  src="thumnails/Gold.jpg" class="thumbnail" alt="">
+              <span class="video-time">18:28</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href="https://www.youtube.com/watch?v=YwxylUPUeZM" class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/ibragod.jpg"  alt="">
+              </div>
+              <div class="video-content">
+                <p class="video-title">50% Gold Discount: All You Neeed To Know...</p>
+                <p class="author-name video-info" >IBRAGOD</p>
+                <p class="video-date video-info">6.8k views &#183 13 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Fv217.jpg" class="thumbnail" alt="">
+              <span class="video-time">8:12</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Blid.jpg"  alt="Blid Shot">
+              </div>
+              <div class="video-content">
+                <p class="video-title">FV217 Badger WoT - 5Kills, 10K Damage</p>
+                <p class="author-name video-info" >BlinD Shot | WoT ReplayS</p>
+                <p class="video-date video-info">171 views &#183 5 hours ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Try Not.webp" class="thumbnail" alt="">
+              <span class="video-time">8:22</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Mark.jpeg"  alt="Markkiplier">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Try Not To Laugh Challenge #9</p>
+                <p class="author-name video-info" >Markiplier<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">19M views &#183 4 years ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=a6srzoZy8JI">
+              <img  src="thumnails/a6srzoZy8JImq.jpg" class="thumbnail" alt="">
+              <span class="video-time">6:20</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href="https://www.youtube.com/watch?v=a6srzoZy8JI" class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/ijaz.jpg"  alt="Ijaz Ansari">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Gur Walay Chawal Recipe By ijaz Ansari | گوالے چاول...</p>
+                <p class="author-name video-info" >Ijaz Ansari Food Secrets</p>
+                <p class="video-date video-info">13k views &#183 1 hour ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href="https://youtu.be/amCdPvkD5UQ?si=erGxYySVTp6nN_XM">
+              <img  src="thumnails/The Miracle.jpg" class="thumbnail" alt="">
+              <span class="video-time">48:41</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href="https://youtu.be/amCdPvkD5UQ?si=erGxYySVTp6nN_XM" class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Reral stories.jpg"  alt="Real Stories">
+              </div>
+              <div class="video-content">
+                <p class="video-title">The Miracle Baby of Haiti &#40Medical Miracle...</p>
+                <p class="author-name video-info" >Real Stories<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">12k views &#183 6 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Top Hacking.jpg" class="thumbnail" alt="">
+              <span class="video-time">59:45</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/david.jpg"  alt="David">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Top Hacking Books for 2024 &#40plus Resources&#41:...</p>
+                <p class="author-name video-info" >David Bombal<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">31k views &#183 1 day ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/thumbnail-1.webp" class="thumbnail" alt="">
+              <span class="video-time">14:20</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Marques.jpeg"  alt="Marques">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Talking Tech and AI with Google CEO Sundar...</p>
+                <p class="author-name video-info" >Marques Brownlee<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">3.4M views &#183 6 months ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/why they are.jpg" class="thumbnail" alt="">
+              <span class="video-time">3:34</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Quran and Islam.jpg"  alt="Quran and Islam">
+              </div>
+              <div class="video-content">
+                <p class="video-title">WHY THEY ARE WEARING DIAPERS?</p>
+                <p class="author-name video-info" >Quran and Islam</p>
+                <p class="video-date video-info">37k views &#183 4 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Why planes.webp" class="thumbnail" alt="">
+              <span class="video-time">10:13</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Reallife.jpeg"  alt="RealLifeLore">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Why Planes Don't Fly Over Tibet?</p>
+                <p class="author-name video-info" >RealLifeLore</p>
+                <p class="video-date video-info">6.6M views &#183 1 year ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href="https://youtu.be/De8PxXD2nCQ?si=FJJ0N25qcu0Oir-x">
+              <img  src="thumnails/Surah.jpg" class="thumbnail" alt="">
+              <span class="video-time">3:37:15</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href="https://youtu.be/De8PxXD2nCQ?si=FJJ0N25qcu0Oir-x" class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Quran dvd.jpg"  alt="Quran DvD">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Surah 2 - Chapter 2 Al Baqrah complete Chap..</p>
+                <p class="author-name video-info" >The Quran DVD<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">37M views &#183 7 years ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/founding father imran.jpg" class="thumbnail" alt="">
+              <span class="video-time">2:30</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Imran khan.jpg"  alt="imran Khan">
+              </div>
+              <div class="video-content">
+                <p class="video-title">A Tribute to Founder Chairman PTI Imran...</p>
+                <p class="author-name video-info" >Imran Khan<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">19k views &#183 8 hours ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href="https://youtu.be/iX91snE6ekI?si=7vPr2OM37quY4XgB">
+              <img  src="thumnails/Smashing.jpg" class="thumbnail" alt="">
+              <span class="video-time">11:59</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href="https://youtu.be/iX91snE6ekI?si=7vPr2OM37quY4XgB" class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/ThatWasEpic.jpg"  alt="">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Smashing GIANT Bongs Prank!</p>
+                <p class="author-name video-info" >ThatWasEpic<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">1.1M views &#183 1 year ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/Dubai.webp" class="thumbnail" alt="">
+              <span class="video-time">4:10</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/dest.jpeg"  alt="Destination Trrips">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Dubai's crazy Underwater Train and Other...</p>
+                <p class="author-name video-info" >Destination Trips</p>
+                <p class="video-date video-info">3M views &#183 1 year ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/10 Git and GitHub -Thumbnail.jpg" class="thumbnail" alt="">
+              <span class="video-time">56:02</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Supersimplediv.jpg"  alt="SuperSimpleDev">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Git and GitHub Tutorial - 0 Experience to...</p>
+                <p class="author-name video-info" >SuperSimpleDev</p>
+                <p class="video-date video-info">98k views &#183 2 years ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/lamborghini.jpg" class="thumbnail" alt="">
+              <span class="video-time">14:48</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/mrbeast.jpg"  alt="Mr.Beast">
+              </div>
+              <div class="video-content">
+                <p class="video-title">Lamborghini Race, Winner Keeps Lamborghini</p>
+                <p class="author-name video-info" >MrBeast<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">131M views &#183 3 years ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-container ">
+          <div class="thumbnail-container">
+            <a href=" ">
+              <img  src="thumnails/israel on sanctions.jpg" class="thumbnail" alt="">
+              <span class="video-time">41:08</span>
+            </a>
+          </div>
+          <div class="video-description ">
+            <a href=" " class="flex-div">
+              <div class="author-profile">
+                <img src="channels-profile/Owens Jones.jpg"  alt="">
+              </div>
+              <div class="video-content">
+                <p class="video-title">"Sanctions On Israel Are The Only Hope": Israel's...</p>
+                <p class="author-name video-info" >Owen Jones<span class="verified-icon"><img src="icons/icons8-tick-16.png" alt="verified-icon"></span></p>
+                <p class="video-date video-info">260k views &#183 8 days ago</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+
+
+      </div>
+    </div>
+    <script src="sscript.js"></script>
+  </body>
+</html>
