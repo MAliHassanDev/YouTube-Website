@@ -64,22 +64,33 @@
   .search-bar {
     margin-left: 0;
     border-right: none;
+    box-shadow: none;
   }
   .search-icon {
     background-color: white;
   }
+  .search-icon:active {
+    background-color:white;
+  }
+  .search-icon:hover {
+    background-color: white;
+    box-shadow: none;;
+  }
+  .sea
   .search-bar:focus {
     border: 1px solid rgb(204, 204, 204);
     border-right: none;
   }
   .nav-section2:focus-within .small-searchicon,
   .search-bar:not(:placeholder-shown) + .small-searchicon {
-  display: none;
-  border: 1px solid rgb(0, 87, 168);
+    display: none;
+    border: none;
   }
   .search-bar:focus {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    border-right: none;
   }
   .sidebar ,.small-sidebar, .sidebar-sections {
     display:none;
@@ -117,7 +128,7 @@
     margin-bottom: .2rem;
   }
   .topic-tabs li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: .7rem 1rem;
     margin: 1.2rem 1.2rem 1.2rem 0rem;
     background-color: var(--topic-tabs-clr);
