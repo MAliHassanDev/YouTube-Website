@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  padding-top: 14rem;
   
 }
 html {
@@ -134,7 +135,7 @@ a{
   box-shadow: inset 0px .5px  0px  rgb(238, 238, 238), inset 0px -.5px  0px  rgb(238, 238, 238);
   margin-left:39px;
   box-sizing: border-box;
-  max-width: 530px;;
+  max-width: 530px;
 }
 .search-bar::placeholder {
   font-size: 16px;
@@ -526,7 +527,7 @@ a{
 
 .topic-tabs-container{
   position: fixed;
-  top: 5.58rem;
+  top: 5.6rem;
   width: 100%;
   background-color: white;
   z-index: 7;
@@ -583,7 +584,7 @@ a{
 
 .main-container {
   display: grid;
-  padding: 14rem 2rem 10rem 14%;
+  padding: 0rem 2rem 10rem 14%;
   grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
   column-gap: 1.6rem;
   row-gap: 3rem;
