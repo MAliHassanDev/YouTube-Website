@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  height: 200rem;
+  
 }
 html {
   font-size: 62.5%;
@@ -564,7 +564,7 @@ a{
 }
 
 .topic-tabs ul::-webkit-scrollbar {
-  height: .3rem;
+  height: 0;
 }
 
 .topic-tabs ul::-webkit-scrollbar-thumb {
@@ -576,7 +576,7 @@ a{
 
 .main-container {
   display: grid;
-  padding: 13.6rem 2rem 0rem 14%;
+  padding: 14rem 2rem 10rem 14%;
   grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
   column-gap: 1.6rem;
   row-gap: 3rem;

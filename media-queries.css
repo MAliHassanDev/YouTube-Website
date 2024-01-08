@@ -92,6 +92,9 @@
   .sidebar-subcriptions span {
     left: 10.5rem;
   }
+  .main-container {
+    padding-top: 13.8rem;
+  }
 }
 
 
@@ -126,6 +129,7 @@
 
   .main-container {
     padding-left: 9.9rem;
+    padding-top: 13.6rem;
   }
 
 }
@@ -215,7 +219,7 @@
   .main-container {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 11.3rem;
+    padding-top: 11.8rem;
     row-gap: 2.5rem;
   }
   .video-container .thumbnail {
