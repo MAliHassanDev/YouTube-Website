@@ -1,4 +1,101 @@
+@media only screen and (max-width:1650px){
+  .sidebar-subcriptions .live-icon {
+    left: 14rem;
+  }
+  .sidebar-subcriptions span {
+    left: 14.5rem;
+  }
+}
+
 @media only screen and (max-width: 1450px)
+{
+  .sidebar-homesection img, 
+  .sidebar-Explore img, 
+  .sidebar-more img,
+  .sidebar-you img,
+  .sidebar-subcriptions img{
+    margin-right: 14px;
+  }
+  .sidebar a {
+    padding: 8px 6px;
+    font-size: 13px;
+  }
+  .small-sidebar a  {
+    font-size: 10px;
+    padding: 16px 0px 14px 0px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sidebar-subcriptions p:first-child,
+  .sidebar-Explore p:first-child,
+  .sidebar-more p:first-child{
+    font-size: 15px;
+    padding: 4px 6px;
+    margin-bottom: 0px;
+  }
+  #you-section-heading {
+    padding: 6px 6px;
+  }
+  #you-section-heading p {
+    font-size: 15px;
+  }
+  .homesection-line {
+    margin: 10px 0px 10px 6px;
+  }
+  .sidebar-subcriptions .live-icon {
+    left: 12rem;
+  }
+  .sidebar-subcriptions span {
+    left: 12.5rem;
+  }
+  
+
+}
+@media only screen and (max-width: 1250px)
+{
+  .sidebar-homesection img, 
+  .sidebar-Explore img, 
+  .sidebar-more img,
+  .sidebar-you img,
+  .sidebar-subcriptions img{
+    margin-right: 7px;
+  }
+  .sidebar a {
+    padding: 8px 3px;
+    font-size: 12px;
+  }
+  .small-sidebar a  {
+    font-size: 10px;
+    padding: 16px 0px 14px 0px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sidebar-subcriptions p:first-child,
+  .sidebar-Explore p:first-child,
+  .sidebar-more p:first-child{
+    font-size: 14px;
+    padding: 4px 3px;
+    margin-bottom: 0px;
+  }
+  #you-section-heading {
+    padding: 6px 3px;
+  }
+  #you-section-heading p {
+    font-size: 14px;
+  }
+  .homesection-line {
+    margin: 10px 0px 10px 3px;
+  }
+  .sidebar-subcriptions .live-icon {
+    left: 10rem;
+  }
+  .sidebar-subcriptions span {
+    left: 10.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 999px)
 {
   .sidebar {
     width: 7.2rem;
@@ -128,11 +225,11 @@
     margin-bottom: .2rem;
   }
   .video-content .author-name {
-    font-size: 1.45rem;
-    color: rgb(80, 80, 80);
+  
+    color: rgb(90, 90, 90);
   }
   .video-content .video-date {
-    font-size: 1.35rem;
+    font-size: 1.34rem;
   }
   .topic-tabs li {
     font-size: 1.3rem;

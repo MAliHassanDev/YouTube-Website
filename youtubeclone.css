@@ -93,7 +93,7 @@ a{
 /* Section 2 */
 .nav-section2 {
   display: flex;
-  width: 732px;
+  width: 688px;
   align-items: center;
   justify-content: flex-end;
 }
@@ -104,6 +104,7 @@ a{
   display: flex;
   align-items: center;
   border: 1px solid rgb(204, 204, 204);
+  border-right: none;
   padding-left: 16px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -164,11 +165,19 @@ a{
   background-color: rgb(248, 248, 248);
   cursor: pointer;
   border-left: none;
+  position: relative;
+  justify-content: center ;
+  transition: opacity 12s;
 }
 .search-icon:hover {
   background-color: rgba(224, 224, 224, 0.466);
   box-shadow: .5px 1px 0px rgba(197, 197, 197, 0.384);
+  .tooltip {
+    opacity: 1;
+  }
+  
 }
+
 .search-icon:active {
   background-color: rgba(197, 197, 197, 0.295);
 }
@@ -192,14 +201,34 @@ a{
   border-radius: 50%;
   flex-shrink: 0;
   cursor: pointer;
+  position: relative;
 }
 .voice-search-icon:hover {
   background-color: rgba(224, 224, 224, 0.842);
+  .tooltip {
+    opacity: 1;
+  }
 }
 .voice-search-icon:active {
   background-color: rgba(197, 197, 197, 0.76);
 }
 
+.tooltip {
+  position: absolute;
+  bottom: -5.4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.57);
+  padding: 10px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s;
+  white-space: nowrap;
+}
+.tooltip-upload {
+  bottom: -4.1rem
+}
 /* section 3 */
 
 .nav-section3 {
@@ -224,6 +253,9 @@ a{
 }
 .upload-icon:hover {
   background-color: rgba(224, 224, 224, 0.836);
+  .tooltip {
+    opacity: 1;
+  }
 }
 .upload-icon:active {
   background-color: rgba(197, 197, 197, 0.76);
@@ -257,6 +289,9 @@ a{
 }
 .notification-icon:hover {
   background-color: rgba(224, 224, 224, 0.836);
+  .tooltip {
+    opacity: 1;
+  }
 }
 .notification-icon:active {
   background-color: rgba(197, 197, 197, 0.76);
@@ -341,7 +376,6 @@ a{
   background: #ccc;
   border: none;
   margin: 12px 0px 13px 12px;
-
 }
 
 /* -------------You SideBar Section-------------- */
@@ -485,7 +519,7 @@ a{
 
 .topic-tabs-container{
   position: fixed;
-  top: 5.6rem;
+  top: 5.58rem;
   width: 100%;
   background-color: white;
   z-index: 7;
@@ -519,6 +553,10 @@ a{
   font-weight: 500;
   border-radius: .8rem;
   cursor: pointer;
+  transition: background-color .5s;
+}
+.topic-tabs li:hover {
+  background-color: rgba(0, 0, 0, 0.11);
 }
 .topic-tabs li:first-child {
   background-color: var(--main-text-clr);
