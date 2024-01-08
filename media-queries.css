@@ -26,6 +26,10 @@
     justify-content: center;
     flex-direction: column;
   }
+  .small-sidebar img {
+    margin-right: 0;
+    margin-bottom: .7rem;
+  }
   .sidebar-subcriptions p:first-child,
   .sidebar-Explore p:first-child,
   .sidebar-more p:first-child{
@@ -69,6 +73,10 @@
     padding: 16px 0px 14px 0px;
     justify-content: center;
     flex-direction: column;
+  }
+  .small-sidebar img {
+    margin-right: 0;
+    margin-bottom: .7rem;
   }
   .sidebar-subcriptions p:first-child,
   .sidebar-Explore p:first-child,
@@ -131,6 +139,11 @@
     padding-left: 9.9rem;
     padding-top: 13.6rem;
   }
+  .home-container {
+    font-weight: 400;
+    background-color: white;
+  }
+  
 
 }
 
@@ -144,6 +157,13 @@
   }
   .nav-section3 {
     width: fit-content;
+  }
+  .topic-tabs {
+    padding-left: 9rem;
+  }
+
+  .main-container {
+    padding-left: 9rem;
   }
 }
 
