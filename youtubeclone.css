@@ -573,6 +573,7 @@ a{
 
 .topic-tabs ul::-webkit-scrollbar {
   height: 0;
+  width: 0;
 }
 
 .topic-tabs ul::-webkit-scrollbar-thumb {
