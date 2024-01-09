@@ -282,4 +282,13 @@
   .mainsection-toggle .main-container {
     padding-left: 5%;
   }
+  .topictabs-hidden {
+    transform: translateY(-11.2rem);
+  }
+  .header-hidden {
+    transform: translateY(-5.6rem);
+  }
+  .footer {
+    display: flex;
+  }
 }

@@ -46,8 +46,9 @@ a{
   left: 0;
   background-color: white;
   z-index: 10;
+  height: 56px;
+  transition: transform .2s;
 }
-
 
 .NavBar {
   height: 56px;
@@ -331,6 +332,7 @@ a{
   overflow-y: auto;
   overflow-x:hidden;
   z-index: 9;
+  background-color: white;
 }
 
 .sidebar-sections {
@@ -531,7 +533,9 @@ a{
   width: 100%;
   background-color: white;
   z-index: 7;
+  transition: transform .2s;
 }
+
 .topic-tabs{
   padding-left: 14%;
   width: 100%;
@@ -545,7 +549,7 @@ a{
 }
 .topic-tabs ul {
   list-style-type: none;
-  overflow-x: scroll;
+  overflow-x: auto;
   flex-wrap: nowrap;
   display: flex;
 }
@@ -572,8 +576,8 @@ a{
 }
 
 .topic-tabs ul::-webkit-scrollbar {
-  height: 0;
   width: 0;
+  height: 0rem;
 }
 
 .topic-tabs ul::-webkit-scrollbar-thumb {
@@ -657,7 +661,37 @@ a{
 }
 
 
+/* ----------------Footer--------------- */
 
+.footer {
+  background-color: white;
+  display: flex;
+  padding: 2px 5%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  border-top: .5px solid var(--secondary-text-clr);
+  display: none;
+}
+.footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  row-gap: 2px;
+}
+.footer img {
+  width: 20px;
+}
+
+.footer .plus-icon {
+  width: 29px;
+}
 
 
 
