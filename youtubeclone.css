@@ -350,6 +350,7 @@ a{
   background-color: rgba(128, 128, 128, 0.89);
   border-radius: 4px;
 }
+
 .sidebar a {
   display: flex;
   align-items: center;
@@ -434,7 +435,7 @@ a{
   margin-right: 23px;
 }
 
-.sidebar-subcriptions span {
+.sidebar-subcriptions .subscribers-notification{
   background-color: rgb(6, 95, 212);
   height: 4px;
   width: 4px;

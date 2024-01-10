@@ -2,12 +2,18 @@
   .sidebar-subcriptions .live-icon {
     left: 14rem;
   }
-  .sidebar-subcriptions span {
+  .sidebar-subcriptions .subscribers-notification {
     left: 14.5rem;
   }
+  .sidebar-hide {
+    display: none;
+  }
+
 }
 
-@media only screen and (max-width: 1450px)
+
+
+@media only screen and (max-width: 1495px)
 {
   .sidebar-homesection img, 
   .sidebar-Explore img, 
@@ -49,7 +55,7 @@
   .sidebar-subcriptions .live-icon {
     left: 12rem;
   }
-  .sidebar-subcriptions span {
+  .sidebar-subcriptions .subscribers-notification {
     left: 12.5rem;
   }
   
@@ -97,7 +103,7 @@
   .sidebar-subcriptions .live-icon {
     left: 10rem;
   }
-  .sidebar-subcriptions span {
+  .sidebar-subcriptions .subscribers-notification {
     left: 10.5rem;
   }
   body {
@@ -240,6 +246,9 @@
   .profile-picture img {
     width: 3.8rem;
     height: 3.8rem;
+  }
+  .author-subscriber-container {
+    display: none;
   }
   .main-container {
     padding-left: 5%;
