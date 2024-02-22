@@ -14,7 +14,10 @@ menuIcon.onclick = function(){
 
 const header = document.querySelector(".header");
 const topictabs = document.querySelector(".topic-tabs-container");
+const topicTabsSlider = document.getElementById('topicTabsSlider');
 let lastScrollY = window.scrollY;
+let startX, scrollLeft;
+let isDown = false;
 
 window.addEventListener("scroll", () => {
  if (window.scrollY>lastScrollY) {
@@ -28,4 +31,25 @@ window.addEventListener("scroll", () => {
   lastScrollY = window.scrollY;
 });
 
+topicTabsSlider.addEventListener('mousedown', (e)=>{
+  startX = e.clientX - topicTabsSlider.offsetLeft;
+  console.log(e.clientX,topicTabsSlider.offsetLeft,startX);
+  isDown = true;
+  scrollLeft = topicTabsSlider.scrollLeft;
+})
+topicTabsSlider.addEventListener('mouseup', ()=>{
+  isDown = false;
+})
+topicTabsSlider.addEventListener('mouseleave', ()=>{
+  isDown = false;
+})
 
+topicTabsSlider.addEventListener('mousemove', (e)=>{
+  if(!isDown){
+    return;
+  }
+  e.preventDefault();
+  const moveX = e.clientX - topicTabsSlider.offsetLeft;
+  const walk = startX - moveX;
+  topicTabsSlider.scrollLeft = walk + scrollLeft;
+})
