@@ -1,5 +1,5 @@
-# Youtube Home Page Clone  
-
+# Youtube Home Page
+An interactive and fully responsive clone of youtube home page
 ## [Live Preview](https://malihassandev.github.io/YouTube-Website/)
 
 ![Youtube Home page Clone  demo picture](img/youtubeHomePagePreview.png)
