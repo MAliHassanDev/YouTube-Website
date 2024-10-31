@@ -13,5 +13,5 @@
 - Improved usage of media queries for responsive design
 - Improved usage css transitions and animations
 ## Navigation
-- My next project [Youtube Homepage](https://github.com/MAliHassanDev/YouTube-Website)
+- My next project [Tic Tac Toe](https://github.com/MAliHassanDev/Tic-Tac-Toe)
 - My previous project [Calculator](https://github.com/MAliHassanDev/Calculator)
