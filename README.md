@@ -2,4 +2,4 @@
 
 ## [Live Preview](https://malihassandev.github.io/Calculator/)
 
-![Calculator Project demo picture](img/youtubeHomePagePreview.png)
+![Youtbe Home page Clone  demo picture](img/youtubeHomePagePreview.png)
